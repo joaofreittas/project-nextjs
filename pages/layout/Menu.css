@@ -1,0 +1,18 @@
+.navbar{
+    margin-top: 4px;
+    width: 100%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.23), 0 2px 6px rgba(0,0,0,0.16);
+}
+
+#nav-mobile{
+    display: none;
+}
+
+@media (max-width:767px){
+    #nav-desktop{
+        display: none
+    }
+    #nav-mobile{
+        display: block;
+    }
+}
